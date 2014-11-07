@@ -1,0 +1,9 @@
+{
+	"Profile": {
+		"name": "Collin Glass",
+		"heading": "I like cats and code",
+		"image1": "cat.jpg",
+		"template": "page.html",
+		"controller": "page1.js"
+	}
+}

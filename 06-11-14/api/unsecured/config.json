@@ -1,0 +1,31 @@
+{
+	"How": {
+		"title": "How it Works",
+		"heading": "Some Text",
+		"heading2": "More of the same text",
+		"paragraph": "We provide mediocre humour! Yeah!",
+		"progress": "60",
+		"paneltext": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus gravida tortor nec diam porta mattis. Nulla non metus ligula. Proin varius turpis felis. Suspendisse feugiat porttitor orci, a luctus diam congue eu. Pellentesque pulvinar neque quis rutrum hendrerit. Nulla sed leo et turpis gravida ultricies at vel magna. Donec mattis imperdiet venenatis. Fusce mattis bibendum sem, eget vulputate tortor tincidunt et. Fusce dolor felis, lacinia sit amet libero nec, commodo dapibus odio. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nam vel velit sit amet diam convallis porttitor at aliquet elit. Fusce malesuada non felis eu fringilla.",
+		"paneltext2": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus gravida tortor nec diam porta mattis. Nulla non metus ligula. Proin varius turpis felis. Suspendisse feugiat porttitor orci, a luctus diam congue eu. Pellentesque pulvinar neque quis rutrum hendrerit. Nulla sed leo et turpis gravida ultricies at vel magna. Donec mattis imperdiet venenatis. Fusce mattis bibendum sem, eget vulputate tortor tincidunt et. Fusce dolor felis, lacinia sit amet libero nec, commodo dapibus odio. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nam vel velit sit amet diam convallis porttitor at aliquet elit. Fusce malesuada non felis eu fringilla.",
+		"template": "home.html",
+		"controller": "home.js"
+	},
+	"Why": {
+		"title": "Why do we do it?!",
+		"paragraph": "Because funny.",
+		"image1": "llama.gif",
+		"template": "page.html",
+		"controller": "page1.js"
+	},
+	"Who": {
+		"title": "These people are behind the company!",
+		"image1": "people.jpg",
+		"template": "page.html",
+		"controller": "page2.js"
+	},
+	"Login": {
+		"title": "Login",
+		"template": "page.html",
+		"controller": "page3.js"
+	}
+}

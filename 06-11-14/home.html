@@ -1,0 +1,31 @@
+<h1>{{ title }}:</h1>
+<p>{{ paragraph }}</p>
+
+{% if progress != "" %}
+<h5>Funny Meter:</h5><br>
+<div style="width: 300px;" class="progress">
+  <div class="progress-bar" role="progressbar" aria-valuenow="{{ progress }}" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
+    <span class="sr-only">60% Complete</span>
+  </div>
+</div>
+{% endif %}
+
+{% if title != "Home Page" %}
+<div class="panel panel-default panel-right">
+{% endif %}
+{% if title == "Home Page" %}
+<div class="panel panel-default panel-center">
+{% endif %}
+  <div class="panel-body">
+	<h3>{{ heading }}</h3>
+	{% if image1 != "" %}
+	<img class="image1" src="api/unsecured/img/{{image1}}">
+	{% endif %}
+	<p>{{ paneltext }}</p>
+	<h3>{{ heading2 }}</h3>
+	<p>{{ paneltext2 }}</p>
+	{% if image2 != "" %}
+	<img class="image2" src="api/unsecured/img/{{image2}}">
+	{% endif %}
+  </div>
+</div>

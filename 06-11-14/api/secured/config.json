@@ -1,0 +1,17 @@
+{
+	"home": {
+		"title": "Home Page",
+		"heading": "Welcome to our Home!",
+		"paragraph": "This is the paragraph!!",
+		"image1": "home.jpg",
+		"template": "home.html",
+		"controller": "home.js"
+	},
+	"Profile": {
+		"title": "This is me!",
+		"heading": "I like cats and code",
+		"image1": "cat.jpg",
+		"template": "page.html",
+		"controller": "page1.js"
+	}
+}

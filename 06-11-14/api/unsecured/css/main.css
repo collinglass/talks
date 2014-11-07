@@ -1,0 +1,25 @@
+#view {
+	margin: 25px;
+}
+
+.image1 {
+	margin-left: 25px;
+	max-width: 250px;
+	max-height: 250px;
+}
+
+.image2 {
+	margin-left: 50px;
+}
+
+.panel-right {
+	position: absolute;
+	right: 50px;
+	top: 100px;
+	max-width: 500px;
+}
+
+.panel-center {
+	margin: 0 auto;
+	width: 500px;
+}
